@@ -1,4 +1,4 @@
--- local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jxereas/UI-Libraries/main/notification_gui_library.lua", true))()
+--[[ local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jxereas/UI-Libraries/main/notification_gui_library.lua", true))()
 
 Notification.new("warning", "Warning !", "AFS | Dupe Script Updated Please Rejoin.") -- Args(<string> Type, <string> Heading, <string> Body, <boolean?> AutoRemoveNotif, <number?> AutoRemoveTime, <function?> OnCloseFunction)
 
@@ -7,3 +7,4 @@ notif:changeHeading("New Heading") -- Args(<string> NewHeading)
 notif:changeBody("New Body") -- Args(<string> NewBody)
 notif:deleteTimeout(3) -- Args(<number> DeleteWaitTime)
 notif:delete()
+-- ]]
